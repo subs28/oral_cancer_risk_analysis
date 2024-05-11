@@ -35,7 +35,7 @@ UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-model = load_model('Oral cancer detection1[img].keras')
+model = load_model('model_name.h5')
 class_names = ['cancer', 'non-cancer']
 
 def allowed_file(filename):
